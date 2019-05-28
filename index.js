@@ -32,11 +32,11 @@
 // 	<input id="num1" class="nums" type="text"/>
 // 	<input id="num2" class="nums" type="text"/>
 // 	<h3>Sum: <span id="sum"></span></h3>  
-
 // Define onchange event handler.
 // Add <input> element values.
 // Put the sum in the <span> element.
 // If values cannot be added, put "Cannot add" in the <span> element
+
 // 7. Skills Event
 // NOTE: Write unobtrusive Javascript
 // When user selects a skill, create an alert with a message similar to:

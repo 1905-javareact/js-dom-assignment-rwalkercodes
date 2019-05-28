@@ -65,16 +65,16 @@
 	  <input type="text" data-customAttr="7"/><br/>
 	  <input type="text" data-customAttr="24"/><br/>
 	  <input type="radio" name="favoriteAnimal" value="dog"/>Dog<br/>
-	  <input type="radio" name="favoriteColor" value="blue"/>Blue<br/>
-	  <input id="num1" class="nums" type="text"/><br/>
+	  <input type="radio" name="favoriteColor" value="blue" onclick="getfavoriteColor()"/>Blue<br/>
+	  <input id="num1" class="nums" type="text"><br/>
 	  <input type="radio" name="favoriteAnimal" value="cat"/>Cat<br/>
-	  <input type="radio" name="favoriteColor" value="red"/>Red<br/>
+	  <input type="radio" name="favoriteColor" value="red" onclick="getfavoriteColor()"/>Red<br/>
 	  <input type="radio" name="favoriteAnimal" value="horse"/>Horse<br/>
 	  <input type="radio" name="favoriteAnimal" value="dolphin"/>Dolphin<br/>
 	  <a>Click <span>Here</span></a><br/>
 	  <input type="radio" name="favoriteAnimal" value="eagle"/>Eagle<br/>
-	  <input type="radio" name="favoriteColor" value="green"/>Green<br/>
-	  <input type="radio" name="favoriteColor" value="orange"/>Orange<br/>
+	  <input type="radio" name="favoriteColor" value="green" onclick="getfavoriteColor()"/>Green<br/>
+	  <input type="radio" name="favoriteColor" value="orange" onclick="getfavoriteColor()"/>Orange<br/>
 	  <select name="hobbies">
 	    <option value="photography">Photography</option>
 	    <option value="football" selected="selected">Football</option>
@@ -83,7 +83,7 @@
 	    <option value="programming" selected="selected">Programming</option>
 	  </select>
 	  <input id="num2" class="nums" type="text"/>
-	  <select name="skills">
+	  <select name="skills" onchange="getHobbies()">
 	    <option value="java">Java</option>
 	    <option value="net">.NET</option>
 	    <option value="dom" selected="selected">DOM</option>
@@ -98,5 +98,6 @@
   <a>Click Here</a>
 	  
   <script src="index.js"></script>  
+  <script src="assignment.js"></script>
 </body>
 </html>
