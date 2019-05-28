@@ -159,6 +159,6 @@ function changeColor(){
                     break;
 
         }
-    });
+    }, 3000);
 }
 changeColor();
